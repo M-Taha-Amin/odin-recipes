@@ -30,7 +30,7 @@ h3 {
 /* biryani img styles */
 
 .biryani {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   margin: 30px auto;
@@ -39,7 +39,15 @@ h3 {
 /* korma img styles */
 
 .korma {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 30px auto;
+}
+/* nihari img styles */
+
+.nihari {
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   margin: 30px auto;
@@ -106,9 +114,5 @@ ul {
   padding: 5px 0px;
 }
 .preparation>ol>li {
-  padding: 10px;
-}
-
-.preparation>ol>li>h4 {
-  margin-top: 25px;
+  padding: 8px;
 }
