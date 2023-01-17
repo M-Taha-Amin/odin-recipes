@@ -30,8 +30,17 @@ h3 {
 /* biryani img styles */
 
 .biryani {
-  height: 620px;
-  width: 620px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 30px auto;
+}
+
+/* korma img styles */
+
+.korma {
+  width: 100%;
+  height: auto;
   object-fit: cover;
   margin: 30px auto;
 }
@@ -39,26 +48,26 @@ h3 {
 /* styles for multiple sections */
 
 .description,
-.ingridients,
+.ingredients,
 .preparation {
   text-align: left;
   padding: 15px;
 }
 
 .description>ul,
-.ingridients>ul,
+.ingredients>ul,
 .preparation>ol {
   margin-left: 25px;
   padding: 15px 0px;
 }
 
 .description>ul>li,
-.ingridients>ul>li,
+.ingredients>ul>li,
 .preparation>ol>li {
   padding: 2px;
 }
 
-.ingridients>h4,
+.ingredients>h4,
 .preparation>ol>li>h4 {
   font-size: 15px;
   letter-spacing: 2px;
@@ -71,14 +80,14 @@ ul {
   line-height: 24px;
 }
 
-/* section:Ingridents styles */
+/* section:Ingredients styles */
 
-.ingridients>h3 {
+.ingredients>h3 {
   letter-spacing: 3px;
   color: darkblue;
 }
 
-.ingridients>hr {
+.ingredients>hr {
   color: blue;
 }
 
@@ -95,6 +104,9 @@ ul {
 
 .preparation>ol>li>p {
   padding: 5px 0px;
+}
+.preparation>ol>li {
+  padding: 10px;
 }
 
 .preparation>ol>li>h4 {
