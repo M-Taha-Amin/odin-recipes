@@ -7,57 +7,65 @@ body {
   background-color: rgb(242, 242, 242);
 }
 h1 {
-  font-size: 47px;
+  font-size: 3rem;
 }
-main {
+.container {
+  position: relative;
   background-color: white;
   width: 45vw;
-  height: 100vh;
+  height: auto;
   margin: auto;
   text-align: center;
-  padding: 25px;
+  padding: 1.5rem;
 }
 img {
-  margin: 35px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 1.8rem auto;
 }
-h3 {
-  background-color: rgb(242, 242, 242);
-  width: 400px;
-  margin: auto;
-  font-size: 22px;
+section > h3 {
+  margin-bottom: 0.95rem;
+  letter-spacing: 0.11rem;
 }
+
+/* List styles */
+
 ul {
-  list-style-type: none;
-  margin-bottom: 5px;
+  list-style: none;
+  padding-bottom: 150px;
 }
-ul li {
-  margin-top: 20px;
+ul > li {
+  margin: 10px 0px;
+  letter-spacing: 0.1rem;
 }
-a:link { 
+/* Link styles */
+
+a:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited { 
+a:visited {
   text-decoration: none;
   color: black;
 }
 
-a:hover { 
+a:hover {
   text-decoration: underline;
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: bold;
-  transition: font-size .15s; 
+  transition: font-size 0.15s;
 }
 
-a:active { 
+a:active {
   text-decoration: none;
 }
+/* footer styles */
 footer {
-  text-align: center;
-  width: 666px;
-  background-color: white;
-  margin: auto;
-  font-size: 14px;
-  padding: 10px 0px;
+  position: absolute;
+  bottom: 0.25rem;
+  font-size: 0.88rem;
+  left: 30%;
+  right: 30%;
 }
